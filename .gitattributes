@@ -1,0 +1,28 @@
+#
+# .gitattributes
+#
+
+## GENERIC ##
+
+*				tezt=auto
+
+
+## SOURCE CODE ##
+
+*.c				eol=lf diff=cpp
+*.h				eol=lf diff=cpp
+*.cpp			eol=lf diff=cpp
+*.hpp			eol=lf diff=cpp
+*.cxx			eol=lf diff=cpp
+*.hxx			eol=lf diff=cpp
+*.c++			eol=lf diff=cpp
+*.h++			eol=lf diff=cpp
+*.cc			eol=lf diff=cpp
+*.hh			eol=lf diff=cpp
+
+
+## SCRIPTS ##
+
+*.sh			eol=lf
+*.py			eol=lf diff=python
+Makefile		eol=lf
